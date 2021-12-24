@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/static/base/img/fondo.jpg") no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    height: 140px;
+}
+
+.block_contenido {
+    min-height: calc(100vh - 163px - 175px);
+}
+
+#nombre_pagina{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#pie_pagina{
+    height: 175px;
+    width: 100%;
+}
+
+#img-temporal{
+    margin-left: 3vh;
+    width: 50px;
+    height: 50px;
+}
+
+#menu-nav1{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,17,55,1) 51%, rgba(36,39,40,1) 100%);
+}
+
+#menu-nav2{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,17,55,1) 51%, rgba(36,39,40,1) 100%);
+}
+
+#bienvenida{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#nombreBlog{
+    font-family: 'Montserrat', sans-serif;
+}
