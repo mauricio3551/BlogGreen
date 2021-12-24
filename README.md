@@ -13,7 +13,6 @@ _gráfico de cómo encontrarlo:_
 ```
 Proyecto_informatorio/
         ├ apps/
-        ├ media/
         ├ Proyecto_informatorio/
         |       └ settings/
         |       |       └ base.py
@@ -22,6 +21,7 @@ Proyecto_informatorio/
         |       └ urls.py
         |       └ views.py
         |       └ wsgi.py
+        ├ media/
         ├ static/
         ├ templates/
         ├ .gitignore
